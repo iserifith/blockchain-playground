@@ -176,7 +176,7 @@ export const AccountStateProvider: React.FC<PropsWithChildren> = ({
           payload: ethers.utils.formatEther(balance),
         });
       } else {
-        throw new Error("Wrong Network.");
+        throw new Error("Wrong Network. Connect to Goerli Testnet.");
       }
 
       dispatch({
@@ -187,6 +187,7 @@ export const AccountStateProvider: React.FC<PropsWithChildren> = ({
       providerRef.current = provider;
     } catch (error) {
       console.log(error);
+      alert(error);
     }
   };
 
