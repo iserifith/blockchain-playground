@@ -1,0 +1,8 @@
+[
+    "event NewMessage(tuple(tuple(address,string,uint256),uint256,string))",
+    "event NewParticipantAdded(tuple(address,string,uint256))",
+    "function addParticipant(address,string)",
+    "function checkIsParticipant(address) view returns (bool)",
+    "function getAllMessages() view returns (tuple(tuple(address,string,uint256),uint256,string)[])",
+    "function sendMessage(string)"
+]

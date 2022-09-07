@@ -1,0 +1,6 @@
+[
+    "event NewChatroom(address)",
+    "function cost() view returns (uint256)",
+    "function create() payable",
+    "function getAllChatrooms() view returns (address[])"
+]

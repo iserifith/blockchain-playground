@@ -1,0 +1,14 @@
+[
+    "constructor(address)",
+    "event NewMessage(tuple(tuple(address,string,uint256),uint256,string))",
+    "event NewParticipantAdded(tuple(address,string,uint256))",
+    "event OwnershipTransferred(address indexed,address indexed)",
+    "function addParticipant(address,string)",
+    "function checkIsParticipant(address) view returns (bool)",
+    "function getAllMessages() view returns (tuple(tuple(address,string,uint256),uint256,string)[])",
+    "function owner() view returns (address)",
+    "function participantList(address) view returns (address, string, uint256)",
+    "function renounceOwnership()",
+    "function sendMessage(string)",
+    "function transferOwnership(address)"
+]

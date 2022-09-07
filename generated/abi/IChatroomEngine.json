@@ -1,0 +1,5 @@
+[
+    "event NewChatroom(address)",
+    "function create() payable",
+    "function getAllChatrooms() returns (address[])"
+]
