@@ -9,6 +9,9 @@ module.exports = async (phase, { defaultConfig }) => {
     eslint: {
       ignoreDuringBuilds: true,
     },
+    typescript: {
+      ignoreBuildErrors: true,
+    },
     webpack(config) {
       config.module.rules.push({
         test: /\.svg$/,

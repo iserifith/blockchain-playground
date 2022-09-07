@@ -21,6 +21,8 @@
     "@types/ua-parser-js": "^0.7.36",
     "autoprefixer": "^10.4.8",
     "chai": "^4.3.6",
+    "eslint": "^8.23.0",
+    "eslint-config-next": "12.2.5",
     "hardhat": "^2.10.2",
     "hardhat-abi-exporter": "^2.10.0",
     "hardhat-gas-reporter": "^1.0.8",
